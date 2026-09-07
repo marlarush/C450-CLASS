@@ -1,25 +1,25 @@
-# Business Case — Ripple: Business Decision Impact Explorer
+# Business Case — Elsewhere: Business Decision Impact Explorer
 
 ## 1. Problem / Opportunity
 Business decisions are often evaluated based on their immediate benefits, while their effects on other departments, employees, customers, and operating costs may be scattered across reports, meetings, and conversations. Without a clear way to view these connections together, decision-makers may overlook secondary impacts that change whether a decision is actually beneficial.
 
 ## 2. Proposed Solution
-Ripple is a web application that brings the potential impacts of proposed business decisions into one view. Users can browse decisions under consideration and select one to review its goal, expected benefits, affected departments, risks, and possible secondary effects on employees, customers, costs, and operations. This gives decision-makers a clearer picture of the tradeoffs involved before deciding whether to move forward.
+Elsewhere is a web application that brings the potential impacts of proposed business decisions into one view. Users can browse decisions under consideration and select one to review its goal, expected benefits, affected departments, risks, and possible secondary effects on employees, customers, costs, and operations. This gives decision-makers a clearer picture of the tradeoffs involved before deciding whether to move forward.
 
 ## 3. Options Considered
 
 | Option | Description | Pros | Cons |
 |--------|-------------|------|------|
 | Option A — Continue with existing tools | Use current reports, spreadsheets, email, and meetings to evaluate proposed business decisions. | Little or no new cost; employees are already familiar with the tools. | Information remains scattered; secondary impacts may be harder to identify; comparing decisions can be inconsistent. |
-| Option B — Ripple (recommended) | Use a dedicated web application to organize proposed decisions and their potential impacts in one place. | Provides a consistent view of benefits, risks, affected groups, and secondary effects; makes decisions easier to review and compare. | Requires development and maintenance; users must adopt a new tool and keep decision information current. |
+| Option B — Elsewhere (recommended) | Use a dedicated web application to organize proposed decisions and their potential impacts in one place. | Provides a consistent view of benefits, risks, affected groups, and secondary effects; makes decisions easier to review and compare. | Requires development and maintenance; users must adopt a new tool and keep decision information current. |
 
 ## 4. Feasibility
 
 | Type | Assessment |
 |------|------------|
-| Operational — will people actually use/support this? | Ripple could be useful to managers, analysts, and project teams that need to evaluate decisions involving multiple parts of an organization. Its value depends on users entering accurate information and keeping decision impacts current. |
+| Operational — will people actually use/support this? | Elsewhere could be useful to managers, analysts, and project teams that need to evaluate decisions involving multiple parts of an organization. Its value depends on users entering accurate information and keeping decision impacts current. |
 | Technical — can we build it with what we have/can get? | Yes. A functional prototype can be developed using the existing web application template. The core design requires displaying a collection of proposed decisions and allowing users to select an individual decision for a more detailed view. |
-| Economic — does the payoff justify the cost? | Potentially. Ripple could reduce time spent gathering decision information from separate sources and help organizations identify costly secondary effects before changes are approved. A cost-benefit analysis is needed to determine whether those savings justify development and operating costs. |
+| Economic — does the payoff justify the cost? | Potentially. Elsewhere could reduce time spent gathering decision information from separate sources and help organizations identify costly secondary effects before changes are approved. A cost-benefit analysis is needed to determine whether those savings justify development and operating costs. |
 | Schedule — can it be done in a useful timeframe? | Yes. The prototype remains close to the structure of the provided application, which limits the amount of new functionality required and makes a usable version achievable within the project timeframe. |
 
 ## 5. Costs & Benefits
@@ -48,10 +48,10 @@ Ripple is a web application that brings the potential impacts of proposed busine
 
 *(See Toolkit Part C — Financial Analysis Tools document for payback, ROI, and present value formulas.)*
 ## 6. Priority & Urgency
-As business decisions increasingly affect multiple departments and stakeholders, evaluating only the immediate benefit can leave important consequences unnoticed. Developing Ripple now provides an opportunity to create a more consistent decision-review process; without it, organizations may continue relying on scattered information and discover secondary costs or operational effects only after a decision has been implemented.
+As business decisions increasingly affect multiple departments and stakeholders, evaluating only the immediate benefit can leave important consequences unnoticed. Developing Elsewhere now provides an opportunity to create a more consistent decision-review process; without it, organizations may continue relying on scattered information and discover secondary costs or operational effects only after a decision has been implemented.
 
 ## 7. Recommendation
-Proceed with Option B and develop a functional prototype of Ripple to evaluate its usefulness as a centralized tool for reviewing the broader impacts of business decisions.
+Proceed with Option B and develop a functional prototype of Elsewhere to evaluate its usefulness as a centralized tool for reviewing the broader impacts of business decisions.
 
 ## 8. Approval
 
