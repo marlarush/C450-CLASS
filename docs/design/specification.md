@@ -114,6 +114,7 @@ Patterns:
 | R4 | When a user views the secondary impacts of a decision, the system shall identify the affected business area, such as employees, customers, costs, or operations. | Event-driven |
 | R5 | The system shall clearly distinguish documented impacts from assumptions or estimates. | Ubiquitous |
 | R6 | The system shall clearly indicate whether each secondary impact is positive or negative. | Ubiquitous |
+| R7 | When documented or assumption labels are displayed, the system shall provide a clear explanation of what those labels mean. | Event-driven |
 
 ---
  
@@ -129,6 +130,7 @@ For each requirement, define the test that proves it's done. If you can't write 
 | R4 | View the secondary impacts for a proposed decision. | Each secondary impact identifies the affected area, such as employees, customers, costs, or operations. |
 | R5 | Review the impact information for a proposed decision. | Documented impacts are clearly distinguishable from assumptions or estimates. |
 | R6 | Review the secondary impacts for a proposed decision. | Each secondary impact is clearly identified as positive or negative. |
+| R7 | View a decision containing documented and assumption labels. | The user can access a clear explanation of what each label means. |
 ---
  
 ## 6. Constraints & Non-Functional Requirements
