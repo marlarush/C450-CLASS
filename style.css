@@ -13,3 +13,14 @@
 .item-detail-image {
   max-height: 320px;
 }
+
+a:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+.impact-label-explanation,
+.impact-source-label {
+  font-size: 1rem;
+}
