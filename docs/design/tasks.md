@@ -15,7 +15,7 @@
 | T7 | Display the secondary impact list for the selected decision with each impact description included | R3, ADR-02 | T5 | Done |
 | T8 | Group secondary impacts by affected business area so employees, customers, costs, and operations are clearly separated | R4, ADR-02 | T7 | Done |
 | T9 | Label each impact as Documented or Assumption/Estimate so users can distinguish the source of the information | R5, ADR-03 | T7 | Done |
-| T10 | Add a short explanation in the UI that defines what the Documented and Assumption/Estimate labels mean | R7, ADR-03 | T9 | Not started |
+| T10 | Add a short explanation in the UI that defines what the Documented and Assumption/Estimate labels mean | R7, ADR-03 | T9 | Done |
 | T11 | Add explicit text labels for each secondary impact to show whether it is Positive or Negative | R6, ADR-04 | T7 | Not started |
 | T12 | Review the prototype against the acceptance criteria for R1-R7 and check accessibility and readability requirements | R1, R2, R3, R4, R5, R6, R7, ADR-00, ADR-02, ADR-03, ADR-04 | T6, T8, T9, T10, T11 | Not started |
 

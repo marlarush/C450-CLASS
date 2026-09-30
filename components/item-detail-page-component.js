@@ -56,6 +56,7 @@ export default {
 
           <section v-if="groupedSecondaryImpacts.length > 0" class="mt-4" aria-labelledby="secondary-impacts-heading">
             <h2 id="secondary-impacts-heading" class="h5">Secondary impacts</h2>
+            <p class="small text-muted mb-2">Documented means supported by available information. Assumption/Estimate means a possible impact based on an assumption or estimate, not a confirmed outcome.</p>
             <section v-for="group in groupedSecondaryImpacts" :key="group.area" class="mt-3" :aria-labelledby="'impact-area-' + group.area">
               <h3 :id="'impact-area-' + group.area" class="h6">{{ group.area }}</h3>
               <ul class="mb-0">
