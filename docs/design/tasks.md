@@ -7,8 +7,8 @@
 | ID | Task | Traces to (R# / ADR#) | Depends on | Status |
 |----|------|--------------------------|------------|--------|
 | T1 | Create the placeholder decision data structure for proposed decisions, primary benefits, and secondary impacts | R1, R3, R4, R5, R6, ADR-01 — | Done |
-| T2 | Add sample decision records to the app's front-end data source so the prototype can load realistic content | R1, ADR-01 | T1 | Not started |
-| T3 | Build the decision collection view to display all proposed decisions in the main page list | R1, ADR-00 | T2 | Not started |
+| T2 | Add sample decision records to the app's front-end data source so the prototype can load realistic content | R1, ADR-01 | T1 | Done |
+| T3 | Build the decision collection view to display all proposed decisions in the main page list | R1, ADR-00 | T2 | Done |
 | T4 | Connect each decision item in the collection view to a selection action that loads the chosen decision | R2, ADR-00 | T3 | Not started |
 | T5 | Build the decision detail view to show the selected decision title and summary information | R2, ADR-00 | T4 | Not started |
 | T6 | Display the primary benefit section on the decision detail page | R3, ADR-02 | T5 | Not started |
