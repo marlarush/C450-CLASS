@@ -30,13 +30,15 @@ export default {
 
       <div v-else class="row g-3">
         <div class="col-12 col-md-6 col-lg-4" v-for="item in itemsStore.items" :key="item.id">
-          <article class="card h-100 shadow-sm">
-            <div class="card-body">
-              <p class="small text-muted mb-2">Proposed decision</p>
-              <h2 class="h5 card-title">{{ item.name }}</h2>
-              <p class="card-text mb-0">{{ item.description || 'No summary available.' }}</p>
-            </div>
-          </article>
+          <router-link :to="'/items/' + item.id" class="text-decoration-none text-reset">
+            <article class="card h-100 shadow-sm">
+              <div class="card-body">
+                <p class="small text-muted mb-2">Proposed decision</p>
+                <h2 class="h5 card-title">{{ item.name }}</h2>
+                <p class="card-text mb-0">{{ item.description || 'No summary available.' }}</p>
+              </div>
+            </article>
+          </router-link>
         </div>
       </div>
     </section>
