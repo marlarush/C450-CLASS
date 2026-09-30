@@ -62,6 +62,7 @@ export default {
               <ul class="mb-0">
                 <li v-for="impact in group.impacts" :key="impact.description">
                   {{ impact.description }}
+                  <span class="ms-2 fw-semibold">{{ impact.direction }}</span>
                   <span class="badge bg-secondary ms-2">{{ impact.source }}</span>
                 </li>
               </ul>
