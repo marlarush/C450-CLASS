@@ -38,6 +38,15 @@ export default {
             <h2 id="primary-benefit-heading" class="h5">Primary benefit</h2>
             <p class="mb-0">{{ selectedItem.primaryBenefit || 'No primary benefit available.' }}</p>
           </section>
+
+          <section v-if="selectedItem.secondaryImpacts && selectedItem.secondaryImpacts.length > 0" class="mt-4" aria-labelledby="secondary-impacts-heading">
+            <h2 id="secondary-impacts-heading" class="h5">Secondary impacts</h2>
+            <ul class="mb-0">
+              <li v-for="impact in selectedItem.secondaryImpacts" :key="impact.description">
+                {{ impact.description }}
+              </li>
+            </ul>
+          </section>
         </div>
       </article>
     </section>

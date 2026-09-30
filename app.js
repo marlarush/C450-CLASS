@@ -115,6 +115,7 @@ const app = Vue.createApp({
                 imageUrl: String(row.image_url || '').trim(),
                 location: String(row.location || '').trim(),
                 primaryBenefit: String(row.primary_benefit || '').trim(),
+                secondaryImpacts: placeholderDecisionData.find((decision) => decision.id === String(row.id || '').trim())?.secondaryImpacts || [],
               }));
               itemsStore.error = '';
             }
