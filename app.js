@@ -4,6 +4,61 @@ import NavbarComponent from './components/navbar-component.js';
 import CollectionPageComponent from './components/collection-page-component.js';
 import ItemDetailPageComponent from './components/item-detail-page-component.js';
 
+export const placeholderDecisionData = [
+  {
+    id: 'remote-work-expansion',
+    title: 'Remote Work Expansion',
+    summary: 'Expand hybrid work options to improve hiring and flexibility.',
+    primaryBenefit: 'The company can attract and retain employees while reducing commute-related stress.',
+    secondaryImpacts: [
+      {
+        area: 'Employees',
+        description: 'Staff report better work-life balance and more flexibility for personal responsibilities.',
+        source: 'Documented',
+        direction: 'Positive',
+      },
+      {
+        area: 'Operations',
+        description: 'Team coordination may become harder without regular in-person check-ins.',
+        source: 'Assumption/Estimate',
+        direction: 'Negative',
+      },
+      {
+        area: 'Costs',
+        description: 'Office-related costs may decrease if fewer people use on-site space each week.',
+        source: 'Documented',
+        direction: 'Positive',
+      },
+    ],
+  },
+  {
+    id: 'customer-support-ai',
+    title: 'AI Customer Support Pilot',
+    summary: 'Pilot an AI assistant to help answer routine customer questions.',
+    primaryBenefit: 'Support teams can respond faster to simple requests while freeing staff for higher-value issues.',
+    secondaryImpacts: [
+      {
+        area: 'Customers',
+        description: 'Customers may get quicker answers during busy hours and outside normal office times.',
+        source: 'Assumption/Estimate',
+        direction: 'Positive',
+      },
+      {
+        area: 'Operations',
+        description: 'The support workflow may need extra monitoring to maintain quality and resolve escalations.',
+        source: 'Documented',
+        direction: 'Negative',
+      },
+      {
+        area: 'Costs',
+        description: 'Initial setup costs may increase, but long-term handling time may fall for common requests.',
+        source: 'Assumption/Estimate',
+        direction: 'Positive',
+      },
+    ],
+  },
+];
+
 const routes = [
   {
     path: '/',
