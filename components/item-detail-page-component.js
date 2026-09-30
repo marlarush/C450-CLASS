@@ -8,9 +8,24 @@ export default {
       return itemsStore.items.find((item) => item.id === route.params.id);
     });
 
+    const groupedSecondaryImpacts = Vue.computed(() => {
+      const impacts = selectedItem.value?.secondaryImpacts || [];
+      const groups = new Map();
+
+      impacts.forEach((impact) => {
+        if (!groups.has(impact.area)) {
+          groups.set(impact.area, []);
+        }
+        groups.get(impact.area).push(impact);
+      });
+
+      return Array.from(groups, ([area, areaImpacts]) => ({ area, impacts: areaImpacts }));
+    });
+
     return {
       itemsStore,
       selectedItem,
+      groupedSecondaryImpacts,
     };
   },
   template: /* html */ `
@@ -39,13 +54,16 @@ export default {
             <p class="mb-0">{{ selectedItem.primaryBenefit || 'No primary benefit available.' }}</p>
           </section>
 
-          <section v-if="selectedItem.secondaryImpacts && selectedItem.secondaryImpacts.length > 0" class="mt-4" aria-labelledby="secondary-impacts-heading">
+          <section v-if="groupedSecondaryImpacts.length > 0" class="mt-4" aria-labelledby="secondary-impacts-heading">
             <h2 id="secondary-impacts-heading" class="h5">Secondary impacts</h2>
-            <ul class="mb-0">
-              <li v-for="impact in selectedItem.secondaryImpacts" :key="impact.description">
-                {{ impact.description }}
-              </li>
-            </ul>
+            <section v-for="group in groupedSecondaryImpacts" :key="group.area" class="mt-3" :aria-labelledby="'impact-area-' + group.area">
+              <h3 :id="'impact-area-' + group.area" class="h6">{{ group.area }}</h3>
+              <ul class="mb-0">
+                <li v-for="impact in group.impacts" :key="impact.description">
+                  {{ impact.description }}
+                </li>
+              </ul>
+            </section>
           </section>
         </div>
       </article>
