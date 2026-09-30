@@ -11,7 +11,7 @@
 | T3 | Build the decision collection view to display all proposed decisions in the main page list | R1, ADR-00 | T2 | Done |
 | T4 | Connect each decision item in the collection view to a selection action that loads the chosen decision | R2, ADR-00 | T3 | Done |
 | T5 | Build the decision detail view to show the selected decision title and summary information | R2, ADR-00 | T4 | Done |
-| T6 | Display the primary benefit section on the decision detail page | R3, ADR-02 | T5 | Not started |
+| T6 | Display the primary benefit section on the decision detail page | R3, ADR-02 | T5 | Done |
 | T7 | Display the secondary impact list for the selected decision with each impact description included | R3, ADR-02 | T5 | Not started |
 | T8 | Group secondary impacts by affected business area so employees, customers, costs, and operations are clearly separated | R4, ADR-02 | T7 | Not started |
 | T9 | Label each impact as Documented or Assumption/Estimate so users can distinguish the source of the information | R5, ADR-03 | T7 | Not started |

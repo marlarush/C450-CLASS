@@ -1,5 +1,5 @@
-id,name,description,category,image_url,location
-remote-work-expansion,Remote Work Expansion,Expand hybrid work options to improve hiring and flexibility.,Proposed Decision,,Business-wide
-customer-support-ai,AI Customer Support Pilot,Pilot an AI assistant to help answer routine customer questions.,Proposed Decision,,Customer Support
-four-day-workweek,Four-Day Workweek Trial,Test a four-day workweek to improve focus and employee well-being.,Proposed Decision,,Operations
-sustainable-packaging,Sustainable Packaging Switch,Replace current packaging with recyclable materials across product lines.,Proposed Decision,,Supply Chain
+id,name,description,category,image_url,location,primary_benefit
+remote-work-expansion,Remote Work Expansion,Expand hybrid work options to improve hiring and flexibility.,Proposed Decision,,Business-wide,The company can attract and retain employees while reducing commute-related stress.
+customer-support-ai,AI Customer Support Pilot,Pilot an AI assistant to help answer routine customer questions.,Proposed Decision,,Customer Support,Support teams can respond faster to simple requests while freeing staff for higher-value issues.
+four-day-workweek,Four-Day Workweek Trial,Test a four-day workweek to improve focus and employee well-being.,Proposed Decision,,Operations,Employees may have more focused work time and improved well-being during the trial.
+sustainable-packaging,Sustainable Packaging Switch,Replace current packaging with recyclable materials across product lines.,Proposed Decision,,Supply Chain,The company can reduce packaging waste and strengthen its environmental reputation.

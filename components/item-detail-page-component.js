@@ -33,6 +33,11 @@ export default {
         <div class="card-body p-4">
           <h1 class="h3 mb-3">{{ selectedItem.name }}</h1>
           <p class="lead mb-0">{{ selectedItem.description || 'No summary available.' }}</p>
+
+          <section class="mt-4" aria-labelledby="primary-benefit-heading">
+            <h2 id="primary-benefit-heading" class="h5">Primary benefit</h2>
+            <p class="mb-0">{{ selectedItem.primaryBenefit || 'No primary benefit available.' }}</p>
+          </section>
         </div>
       </article>
     </section>
